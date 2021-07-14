@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>    
@@ -21,15 +22,21 @@
 
             <div class="die-inputs">
                 <div class="der-input">
-                    <label for="email">
+                    <div class="der-label">
+                        <span class="material-icons md-24 silver600">person_outline</span>
+                        <label for="email">
                         Email
                     </label>
+                    </div>                    
                     <input placeholder="example@email.com" autocomplete="off" id="email" type="text">
                 </div>
                 <div class="der-input">
-                    <label for="password">
-                        Password
-                    </label>
+                    <div class="der-label">
+                        <span class="material-icons md-24 silver600">lock_outline</span>
+                        <label for="password">
+                            Password
+                        </label>
+                    </div>
                     <input id="password" type="password">
                 </div>
                 <div class="forget">
@@ -37,15 +44,23 @@
                         Esqueceu a senha?
                     </a>
                 </div>
-            </div>
+            </div>            
 
             <footer>
                 <button class="btn-login">
                     Login
                 </button>
-            </footer>
-        </div>
-    </div>    
+            </footer>                        
+        </div>  
+        <div class="cardLogin">
+            
+                <a href="" class="linkLogin">Cadastre-se</a>           
+            
+                <a href="" class="linkLogin">Google</a>            
+          
+                <a href="" class="linkLogin">Facebook</a>
+            
+        </div>           
+    </div>
 </body>
-
 </html>
