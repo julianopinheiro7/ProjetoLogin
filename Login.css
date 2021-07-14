@@ -80,10 +80,9 @@ body {
 
 .cardLogin {
     width: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
-     
+    justify-content: space-around;     
 }
 
 .linkLogin {
@@ -94,6 +93,7 @@ body {
    margin: 5px;
    border-radius: 7px;
    text-decoration: none;
+   color: black;
 }
 
 .die-inputs {
@@ -150,4 +150,14 @@ body {
 
 .btn-login:hover {
     box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+}
+
+.register {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #000;
 }
