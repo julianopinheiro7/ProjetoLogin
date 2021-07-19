@@ -9,11 +9,13 @@ body {
    height: calc(var(--vh, 1vh) * 100);
    overflow: hidden;
    color: rgb(var(--color));
-   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;    
+   margin: 0;
 }
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
+.material-icons.md-21 { font-size: 21px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
@@ -35,7 +37,7 @@ body {
     background: #F1F3F6;
     height: 100vh;
     position: relative;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .der-login{
@@ -56,7 +58,7 @@ body {
 }
 
 .der-login {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 100%;
 }
 
@@ -80,20 +82,9 @@ body {
 
 .cardLogin {
     width: 500px;
-    margin-top: 10px;
     display: flex;
-    justify-content: space-around;     
-}
-
-.linkLogin {
-   padding: 10px 0;   
-   width: 100%;   
-   text-align: center;   
-   background: #fff; 
-   margin: 5px;
-   border-radius: 7px;
-   text-decoration: none;
-   color: black;
+    justify-content: space-around; 
+    margin-top: 15px;    
 }
 
 .die-inputs {
@@ -161,3 +152,41 @@ body {
     text-decoration: none;
     color: #000;
 }
+
+.linkLogin {
+    padding: 10px 0;   
+    width: 100%;   
+    text-align: center;   
+    background: #fff;    
+    text-decoration: none;
+    color: black;
+ }
+
+.SocialLogin-Google {
+    margin: 4px;
+    background-color: #f2f2f2;
+}
+
+.SocialLogin-Facebook, .SocialLogin-Google {
+    width: 100%;
+    margin: 0 5px;
+    padding: 10px 6px 5px 6px;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+.SocialLoginBox {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.nameButtonSocial {
+    margin-left: 15px;
+    display: inline-flex;
+    margin-bottom: 5px;
+}
+
